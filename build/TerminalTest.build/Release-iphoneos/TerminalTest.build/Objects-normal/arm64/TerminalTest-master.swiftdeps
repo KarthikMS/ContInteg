@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "62d23583245a7a85de3736f08d867ca1"
+build_time: [1601741836, 543802000]
+inputs:
+  "/Users/karthik/Documents/App_Development/Study/Shell/TerminalTest/TerminalTest/ViewController.swift": [9223372036, 854775807]
+  "/Users/karthik/Documents/App_Development/Study/Shell/TerminalTest/TerminalTest/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/karthik/Documents/App_Development/Study/Shell/TerminalTest/TerminalTest/SceneDelegate.swift": [9223372036, 854775807]
