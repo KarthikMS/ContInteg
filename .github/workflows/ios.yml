@@ -16,7 +16,7 @@ jobs:
 #       run: sudo xcode-select -switch /Applications/Xcode_12.0.app
     - uses: actions/checkout@master
     - name: Start xcodebuild test
-      run: xcodebuild clean test -project TerminalTest.xcodeproj -scheme TerminalTest -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.1'
+      run: xcodebuild clean test -project TerminalTest.xcodeproj -scheme TerminalTest -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.7'
 
 # jobs:
 #   build:
