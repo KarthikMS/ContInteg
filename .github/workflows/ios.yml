@@ -12,8 +12,8 @@ jobs:
     runs-on: macOS-latest
     
     steps:
-    - name: Force xcode 11 
-      run: sudo xcode-select -switch /Applications/Xcode_11.1.app
+    - name: Force xcode 12
+      run: sudo xcode-select -switch /Applications/Xcode_12.0.app
     - uses: actions/checkout@master
     - name: Start xcodebuild test
       run: xcodebuild clean test -project TerminalTest.xcodeproj -scheme TerminalTest -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.1'
