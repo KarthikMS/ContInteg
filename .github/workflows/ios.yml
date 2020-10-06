@@ -6,10 +6,10 @@ on:
   pull_request:
     branches: [ main ]
 
-jobs:
-  build:
+# jobs:
+#   build:
 
-    runs-on: macOS-latest
+#     runs-on: macOS-latest
     
 #     steps:
 # #     - name: Force xcode 12
