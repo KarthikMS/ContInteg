@@ -18,7 +18,7 @@ class TerminalTestTests: XCTestCase {
     }
 
     func testExample() throws {
-        XCTAssertEqual(1, 1)
+        XCTAssertEqual(7, 7)
     }
 
     func testPerformanceExample() throws {
