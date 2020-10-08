@@ -30,6 +30,7 @@
 		2506E07A2528D90D001AD9AD /* TerminalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerminalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2506E07C2528D90D001AD9AD /* TerminalTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalTestTests.swift; sourceTree = "<group>"; };
 		2506E07E2528D90D001AD9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A851D252EE08C005F3689 /* TerminalTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TerminalTest.entitlements; sourceTree = "<group>"; };
 		255305A92528CBB8001CC72E /* TerminalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerminalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255305AC2528CBB8001CC72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		255305AE2528CBB8001CC72E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 		255305AB2528CBB8001CC72E /* TerminalTest */ = {
 			isa = PBXGroup;
 			children = (
+				254A851D252EE08C005F3689 /* TerminalTest.entitlements */,
 				255305AC2528CBB8001CC72E /* AppDelegate.swift */,
 				255305AE2528CBB8001CC72E /* SceneDelegate.swift */,
 				255305B02528CBB8001CC72E /* ViewController.swift */,
@@ -406,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TerminalTest/TerminalTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9KY5Z2V8M;
 				INFOPLIST_FILE = TerminalTest/Info.plist;
@@ -416,6 +419,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.TerminalTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -426,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TerminalTest/TerminalTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9KY5Z2V8M;
 				INFOPLIST_FILE = TerminalTest/Info.plist;
@@ -436,6 +442,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.TerminalTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
