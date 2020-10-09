@@ -22,7 +22,7 @@ jobs:
         run: |
           echo $TEST_PASSWORD_1
         env: 
-        TEST_PASSWORD_1: ${{ secrets.TEST_PASSWORD_1 }}
+          TEST_PASSWORD_1: ${{ secrets.TEST_PASSWORD_1 }}
 
       # - name: Checkout
       #   uses: actions/checkout@v2
