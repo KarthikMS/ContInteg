@@ -18,13 +18,11 @@ jobs:
          destination: ['platform=iOS Simulator,OS=14.0,name=iPhone 11']
 
     steps:
-      - name: Collect github action secrets
-      - env: 
-        TEST_PASSWORD_1: $secrets.TEST_PASSWORD_1
-
       - name: Print github action secrets
         run: |
           echo $TEST_PASSWORD_1
+        env: 
+        TEST_PASSWORD_1: $secrets.TEST_PASSWORD_1
 
       # - name: Checkout
       #   uses: actions/checkout@v2
