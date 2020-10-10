@@ -22,7 +22,7 @@ jobs:
         run: |
           if [ "$TEST_PASSWORD_1" == "gonnai" ]
           then
-            echo 'You are gonnai'
+            echo 'You are srr'
           else
             echo 'Who r u bro?'
           fi
