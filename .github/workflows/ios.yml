@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Print github action secrets
         run: |
-          if [ $TEST_PASSWORD_1 == "gonnai" ]; then echo 'You are gonnai'
+          if [ "$TEST_PASSWORD_1" == "gonnai" ]; then echo 'You are gonnai'
           else echo 'Who r u bro?'; fi
         env: 
           TEST_PASSWORD_1: ${{ secrets.TEST_PASSWORD_1 }}
